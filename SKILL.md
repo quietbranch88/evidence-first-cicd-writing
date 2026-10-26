@@ -49,12 +49,13 @@ deployment.
 
 ## Choose the article mode
 
-- For CI cost, self-hosted runners, path-aware checks, parallel lanes, virtual
-  time, and cache operations, read
-  [references/article-01-ci-cost-and-speed.md](references/article-01-ci-cost-and-speed.md).
-- For Exact-SHA, provider identity, deployment ordering, runtime/control
-  digests, production readback, and release receipts, read
-  [references/article-02-exact-sha-release.md](references/article-02-exact-sha-release.md).
+- For CI cost and speed, connect the real cost or capacity incident to runner
+  queueing, path-aware checks, parallel lanes, virtual time, cache operations,
+  and the measured critical path. Preserve every required gate that remained.
+- For release correctness, connect the real blocked or completed deployment to
+  Exact-SHA identity, provider metadata, deployment ordering, runtime/control
+  digests, production readback, and release receipts. Explain why health and
+  provider success are narrower than source verification.
 - Before finalizing any factual claim, read
   [references/evidence-and-claim-boundaries.md](references/evidence-and-claim-boundaries.md).
 
