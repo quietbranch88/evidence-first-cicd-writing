@@ -1,5 +1,9 @@
 # 改一篇文件也跑完整 CI：我的 2,000 分鐘就是這樣沒的
 
+> CI/CD 實戰系列：**第一篇** ｜
+> [第二篇：Railway 顯示 SUCCESS，我為什麼還是不讓它上線？](article-02-exact-sha-release.md) ｜
+> [Evidence-first CI/CD writing Skill](../SKILL.md)
+
 事情是這樣的。
 
 我的 GitHub Actions 額度不是偶爾不夠，而是連續幾個月，每個月 2,000
@@ -220,3 +224,6 @@ CI/CD 要變快，不是一直增加 cache，也不是直接刪除測試。
 
 我的目標不是少跑測試，而是不要再為完全沒變的東西，重複付出時間、
 機器和維護成本。
+
+下一篇會繼續談部署正確性：
+[Railway 顯示 SUCCESS，我為什麼還是不讓它上線？](article-02-exact-sha-release.md)

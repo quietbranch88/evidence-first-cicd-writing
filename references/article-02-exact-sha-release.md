@@ -1,5 +1,9 @@
 # Railway 顯示 SUCCESS，我為什麼還是不讓它上線？
 
+> CI/CD 實戰系列：**第二篇** ｜
+> [第一篇：改一篇文件也跑完整 CI：我的 2,000 分鐘就是這樣沒的](article-01-ci-cost-and-speed.md) ｜
+> [Evidence-first CI/CD writing Skill](../SKILL.md)
+
 有一次 TCF Canada 的 Backend 已經部署完成。
 
 Railway 顯示：
@@ -213,3 +217,6 @@ Health 200   ≠ Database 正常
 
 Pipeline 最重要的功能不只是自動部署，而是在證據不足時，知道自己應該
 停下來。
+
+回到第一篇：
+[改一篇文件也跑完整 CI：我的 2,000 分鐘就是這樣沒的](article-01-ci-cost-and-speed.md)
