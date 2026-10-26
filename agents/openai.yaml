@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence-First CI/CD Writing"
+  short_description: "Write evidence-bounded CI/CD case studies"
+  default_prompt: "Use $evidence-first-cicd-writing to turn real CI/CD evidence into a Traditional Chinese case-study article."
